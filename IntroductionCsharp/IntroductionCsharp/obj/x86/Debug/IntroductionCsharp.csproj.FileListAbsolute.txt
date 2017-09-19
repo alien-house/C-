@@ -1,0 +1,5 @@
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/IntroductionCsharp/bin/Debug/IntroductionCsharp.exe
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/IntroductionCsharp/bin/Debug/IntroductionCsharp.pdb
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/IntroductionCsharp/obj/x86/Debug/IntroductionCsharp.csproj.CoreCompileInputs.cache
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/IntroductionCsharp/obj/x86/Debug/IntroductionCsharp.exe
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/IntroductionCsharp/obj/x86/Debug/IntroductionCsharp.pdb
