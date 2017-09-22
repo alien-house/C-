@@ -9,7 +9,6 @@ namespace Task5_checkchar
             //Console.Read();
             ques();
 
-
         }
 
         public static void ques(){

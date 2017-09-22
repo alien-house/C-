@@ -6,7 +6,7 @@ namespace Task3
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("convert from Celsius degrees to Kelvin and Fahrenheit.");
 
             double celsius = 10.0;
             double kelvin = celsius + 273;
