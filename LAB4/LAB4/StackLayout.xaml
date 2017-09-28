@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    Padding="0,0,0,0"
+    BackgroundColor="#127ac7"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LAB4.StackLayout">
+
+    <AbsoluteLayout>
+    <StackLayout
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="SizeProportional"
+        VerticalOptions="Center">
+
+        <Label 
+            Text="Welcome to Xamarin"
+            FontSize="22"
+            TextColor="White"
+            HorizontalTextAlignment="Center"
+        />
+        <Label 
+            Text="Cross-platform apps made easy"
+            FontSize="16"
+            TextColor="White"
+            HorizontalTextAlignment="Center"
+        />
+        <Button
+            Text="Login"
+            TextColor="White"
+            BackgroundColor="#1dabf0"
+        />
+        <Button
+            Text="Register"
+            TextColor="White"
+            BackgroundColor="#1dabf0"
+        />
+
+        
+	</StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

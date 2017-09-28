@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LAB4.GridLayout">
+
+    <AbsoluteLayout>
+        
+        <BoxView BackgroundColor="#354242" 
+        AbsoluteLayout.LayoutBounds="0,0,1,1" 
+        AbsoluteLayout.LayoutFlags="SizeProportional" />
+        
+        <Label
+            Text="1234"
+            FontSize="50"
+            HorizontalTextAlignment="Center"
+            FontAttributes="Bold"
+            TextColor="White"
+            AbsoluteLayout.LayoutBounds="0.5, 0.1, 1, 0.2"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional, HeightProportional" />
+
+        <StackLayout
+            AbsoluteLayout.LayoutBounds="0.5, 0.3, 0.8, 0.6"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional, HeightProportional"
+            >
+            
+            <Grid RowSpacing="10" ColumnSpacing="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0" Text="1" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label Grid.Row="0" Grid.Column="1" Text="2" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label Grid.Row="0" Grid.Column="2" Text="3" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+
+                <Label Grid.Row="1" Grid.Column="0" Text="4" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label Grid.Row="1" Grid.Column="1" Text="5" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label Grid.Row="1" Grid.Column="2" Text="6" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+
+                <Label Grid.Row="2" Grid.Column="0" Text="7" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label Grid.Row="2" Grid.Column="1" Text="8" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label Grid.Row="2" Grid.Column="2" Text="9" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+
+                <Label Grid.Row="3" Grid.Column="1" Text="0" BackgroundColor="White"
+                    FontSize="30"
+                    TextColor="#28282c"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                
+                <Label Grid.Row="4" Grid.ColumnSpan="3" Text="Dial" BackgroundColor="Teal" />
+            </Grid>
+                
+            </StackLayout>
+    </AbsoluteLayout>
+    
+</ContentPage>
