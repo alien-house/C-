@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="LAB3.QuotesPage">
+
+    <StackLayout
+        Orientation="Vertical"
+        BindingContext="{x:Reference slider1}">
+        <Label
+            Text="Font size : 16"
+            x:Name="label_fontsize"
+            VerticalOptions="Start"
+            HorizontalTextAlignment="Center" />
+        <Slider
+            x:Name="slider1"
+            HorizontalOptions="FillAndExpand"
+            Maximum="38"
+            Minimum="16"
+        />
+        <Label
+            Text="quote"
+            x:Name="label_quote"
+            VerticalOptions="Start"
+            HorizontalTextAlignment="Center" />
+    </StackLayout>
+</ContentPage>
+<!--
+Text="{
+                Binding Value,
+                StringFormat='Value is {0:F1}'
+            }"-->
