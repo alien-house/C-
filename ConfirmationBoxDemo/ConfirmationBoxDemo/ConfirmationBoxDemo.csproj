@@ -48,6 +48,9 @@
     <EmbeddedResource Include="PickerDemo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="DatePickerDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -74,6 +77,9 @@
     </Compile>
     <Compile Include="PickerDemo.xaml.cs">
       <DependentUpon>PickerDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DatePickerDemo.xaml.cs">
+      <DependentUpon>DatePickerDemo.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

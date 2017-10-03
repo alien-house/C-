@@ -10,11 +10,12 @@ namespace ConfirmationBoxDemo
 
 			//MainPage = new ConfirmationBoxDemoPage();
 			//MainPage = new ConfirmationBoxDemo.ActionSheet();
-			MainPage = new ConfirmationBoxDemo.SwitchDemo();
+			//MainPage = new ConfirmationBoxDemo.SwitchDemo();
 			//MainPage = new ConfirmationBoxDemo.SliderDemo();
 			//MainPage = new ConfirmationBoxDemo.StepperDemo();
 			//MainPage = new ConfirmationBoxDemo.EntryDemo();
 			//MainPage = new ConfirmationBoxDemo.PickerDemo();
+			MainPage = new ConfirmationBoxDemo.DatePickerDemo();
 
 
 

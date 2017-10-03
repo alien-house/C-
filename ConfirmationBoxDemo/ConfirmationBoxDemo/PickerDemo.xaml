@@ -9,12 +9,12 @@
             SelectedIndexChanged="Handle_SelectedIndexChanged"
             x:Name="myPicker"
             >
-            <Picker.Items>
+            <!--<Picker.Items>
                 <x:String>Email</x:String>
                 <x:String>Call</x:String>
                 <x:String>Message</x:String>
                 <x:String>WhatsApp</x:String>
-            </Picker.Items>
+            </Picker.Items>-->
         </Picker>
         
 	</ContentPage.Content>
