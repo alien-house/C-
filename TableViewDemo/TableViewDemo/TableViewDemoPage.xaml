@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:TableViewDemo" 
+    x:Class="TableViewDemo.TableViewDemoPage">
+
+    <StackLayout>
+        <TableView>
+            <TableRoot>
+                <TableSection Title="Basic">
+                    <TextCell Text="Name" Detail="Mitali Pattani" />
+                    <EntryCell Label="Title" Placeholder="(i.e. Shopping)" />
+                    <EntryCell Label="Location" Placeholder="(i.e. Grocery Store)" />
+                    <SwitchCell Text="Notification" On="True" />
+                </TableSection>
+                
+                <TableSection Title="Date/Time">
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10,0">
+                            <Label Text="Start Date"
+                            VerticalOptions="Center"/>
+                            <DatePicker Date="3 Oct 2017" 
+                                        HorizontalOptions="EndAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10,0">
+                            <Label Text="End Date"
+                            VerticalOptions="Center"/>
+                            <DatePicker Date="3 Oct 2017" 
+                                        HorizontalOptions="EndAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+       
+</ContentPage>
