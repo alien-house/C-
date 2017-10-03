@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="ConfirmationBoxDemo.SwitchDemo">
+	<ContentPage.Content>
+        <StackLayout Padding="40">
+            <Switch IsToggled="true" Toggled="Handle_Toggled" x:Name="mySwitch" />
+            <Label Text="Hi" x:Name="myLabel"
+            IsVisible="{Binding Source={x:Reference mySwitch},
+                Path = IsToggled
+            }" />
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
