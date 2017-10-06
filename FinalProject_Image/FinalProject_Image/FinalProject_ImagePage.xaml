@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:FinalProject_Image" 
+    x:Class="FinalProject_Image.FinalProject_ImagePage">
+        <StackLayout>
+            <Grid Padding="20" x:Name="gridLayout">
+            </Grid>
+         </StackLayout>
+  <!--  <GridView x:Name="gd"
+                  Tapped="gd_Tapped">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Height="300" Width="250">
+                        <Image Source="{Binding Source}" Stretch="Fill"/>
+                        <Grid Height="100" Background="#B2000000" VerticalAlignment="Bottom">
+                            <TextBlock  Text="{Binding MyProperty}" FontSize="25" />
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>-->
+</ContentPage>
