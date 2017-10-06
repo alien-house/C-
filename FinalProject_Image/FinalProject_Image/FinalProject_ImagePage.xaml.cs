@@ -13,44 +13,32 @@ namespace FinalProject_Image
         public FinalProject_ImagePage()
         {
             InitializeComponent();
-
-            //Grid  = new Grid();
-
-			//gridLayout.Children.Add(new Label { Text = "00" }, 0, 0);
-			//gridLayout.Children.Add(new Label { Text = "01" }, 0, 1);
-			//gridLayout.Children.Add(new Label { Text = "10" }, 0, 2);
-			//gridLayout.Children.Add(new Label { Text = "11" }, 1, 1);
         }
 
 		protected override async void OnAppearing()
 		{
 			base.OnAppearing();
 
+            // get json
 			var images = await GetImageListAsync();
 			int index = 1;
             int bend = 4;
 			int row = 0;
 			int column = 0;
 
+            //setting images
 			foreach (var photo in images.Photos)
 			{
 				var image = new Image
 				{
 					Source = ImageSource.FromUri(new Uri(photo))
 				};
-
-
 				TapGestureRecognizer imageTap = new TapGestureRecognizer();
-				imageTap.Tapped += YourMethod;
-
+				imageTap.Tapped += ClickGrid;
 				image.GestureRecognizers.Add(imageTap);
-
-
-
-				Debug.WriteLine("row:{0}  column:{1}", column, row);
+				//Debug.WriteLine("row:{0}  column:{1}", column, row);
 				gridLayout.Children.Add(image, column, row);
 				column++;
-
 				if(0 == index % bend){
                     row++;
                     column = 0;
@@ -59,10 +47,9 @@ namespace FinalProject_Image
 			}
 		}
 
-        public void YourMethod(object sender, EventArgs args){
+        public void ClickGrid(object sender, EventArgs args){
             Image img = sender as Image;
-           
-                Debug.WriteLine(img.Source);
+            //Debug.WriteLine(img.Source);
             Navigation.PushAsync(new PicPage(img.Source));
         }
 
