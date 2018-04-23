@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+
 namespace ExerciseList
 {
-    public class SearchGroup : List<Search>
+    public class SearchGroup : ObservableCollection<Search>
 	{
 		public string Title { get; set; }
-		public string ShortTitle { get; set; }
 
-		public SearchGroup(string title, string shorttitle)
+		public SearchGroup(string title, IEnumerable<Search> searches = null)
+			: base(searches)
 		{
 			Title = title;
-			ShortTitle = shorttitle;
 		}
     }
 }

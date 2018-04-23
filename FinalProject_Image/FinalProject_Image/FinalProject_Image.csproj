@@ -60,6 +60,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.GoogleAnalytics.Abstractions">
+      <HintPath>..\packages\ksemenenko.GoogleAnalytics.1.0.3\lib\portable-net45+wp80+win8+wpa81\Plugin.GoogleAnalytics.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.GoogleAnalytics">
+      <HintPath>..\packages\ksemenenko.GoogleAnalytics.1.0.3\lib\portable-net45+wp80+win8+wpa81\Plugin.GoogleAnalytics.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -13,5 +13,14 @@ namespace ExerciseList
                 return CheckIn.ToString("MMM dd, yyyy") + " - " + CheckOut.ToString("MMM dd, yyyy");
             }
         }
+		//public string Period
+		//{
+		//	get
+		//	{
+		//		return String.Format("{0} - {1}",
+		//				 CheckIn.ToString("MMM d, yyyy"),
+		//				 CheckOut.ToString("MMM d, yyyy"));
+		//	}
+		//}
     }
 }

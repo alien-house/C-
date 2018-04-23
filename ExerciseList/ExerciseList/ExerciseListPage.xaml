@@ -8,11 +8,15 @@
         
         <StackLayout>
             
-            <SearchBar Placeholder="Search..." TextChanged="SearchBar_TextChanged"/>
+            <SearchBar Placeholder="Search..." 
+                TextChanged="SearchBar_TextChanged"
+            x:Name="searchBar"/>
             
             <ListView x:Name="myListView" SeparatorColor="Gray"
                       IsGroupingEnabled="True"
                       GroupDisplayBinding="{Binding Title}"
+                        IsPullToRefreshEnabled="true"
+                        Refreshing="myListView_Refreshing"
                       ItemSelected="myListView_ItemSelected"
                       >
                 <ListView.ItemTemplate>
@@ -20,6 +24,7 @@
                         <TextCell Text="{Binding Location}" Detail="{Binding CheckString}">
                             <TextCell.ContextActions>
                                 <MenuItem Text="Delete"
+                                          IsDestructive="true" 
                                           Clicked="Delete_Clicked"
                                           CommandParameter="{Binding .}"/>
                             </TextCell.ContextActions>

@@ -5,6 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionCsharp", "Intro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises01", "Exercises01\Exercises01.csproj", "{BBB937DB-A2DD-43AA-9E50-732E1403A61F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattedOutput", "FormattedOutput\FormattedOutput.csproj", "{CDE65482-E190-4841-9C35-4F57FD875CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberConvertion", "NumberConvertion\NumberConvertion.csproj", "{F01B3EA2-F521-404B-8A84-022B2BCE535B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionParse", "ConversionParse\ConversionParse.csproj", "{FD3CC4F8-1B2F-4153-9003-FC99231893B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationCondition", "OperationCondition\OperationCondition.csproj", "{0748B6DD-5A39-40BC-AE39-43E49423B5F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +27,21 @@ Global
 		{BBB937DB-A2DD-43AA-9E50-732E1403A61F}.Debug|x86.Build.0 = Debug|x86
 		{BBB937DB-A2DD-43AA-9E50-732E1403A61F}.Release|x86.ActiveCfg = Release|x86
 		{BBB937DB-A2DD-43AA-9E50-732E1403A61F}.Release|x86.Build.0 = Release|x86
+		{CDE65482-E190-4841-9C35-4F57FD875CCF}.Debug|x86.ActiveCfg = Debug|x86
+		{CDE65482-E190-4841-9C35-4F57FD875CCF}.Debug|x86.Build.0 = Debug|x86
+		{CDE65482-E190-4841-9C35-4F57FD875CCF}.Release|x86.ActiveCfg = Release|x86
+		{CDE65482-E190-4841-9C35-4F57FD875CCF}.Release|x86.Build.0 = Release|x86
+		{F01B3EA2-F521-404B-8A84-022B2BCE535B}.Debug|x86.ActiveCfg = Debug|x86
+		{F01B3EA2-F521-404B-8A84-022B2BCE535B}.Debug|x86.Build.0 = Debug|x86
+		{F01B3EA2-F521-404B-8A84-022B2BCE535B}.Release|x86.ActiveCfg = Release|x86
+		{F01B3EA2-F521-404B-8A84-022B2BCE535B}.Release|x86.Build.0 = Release|x86
+		{FD3CC4F8-1B2F-4153-9003-FC99231893B2}.Debug|x86.ActiveCfg = Debug|x86
+		{FD3CC4F8-1B2F-4153-9003-FC99231893B2}.Debug|x86.Build.0 = Debug|x86
+		{FD3CC4F8-1B2F-4153-9003-FC99231893B2}.Release|x86.ActiveCfg = Release|x86
+		{FD3CC4F8-1B2F-4153-9003-FC99231893B2}.Release|x86.Build.0 = Release|x86
+		{0748B6DD-5A39-40BC-AE39-43E49423B5F1}.Debug|x86.ActiveCfg = Debug|x86
+		{0748B6DD-5A39-40BC-AE39-43E49423B5F1}.Debug|x86.Build.0 = Debug|x86
+		{0748B6DD-5A39-40BC-AE39-43E49423B5F1}.Release|x86.ActiveCfg = Release|x86
+		{0748B6DD-5A39-40BC-AE39-43E49423B5F1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

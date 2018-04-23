@@ -8,8 +8,10 @@ namespace LAB4
         {
             InitializeComponent();
 
-            //MainPage = new LAB4Page();
-            MainPage = new LAB4.GridLayout();
+			//MainPage = new LAB4Page();
+			//MainPage = new LAB4.GridLayout();
+			MainPage = new LAB4.StackLayout2();
+
 
         }
 

@@ -4,8 +4,11 @@
     xmlns:local="clr-namespace:FinalProject_Image" 
     x:Class="FinalProject_Image.FinalProject_ImagePage">
         <StackLayout>
-            <Grid Padding="20" x:Name="gridLayout">
-            </Grid>
+            <ScrollView>
+                <Grid Padding="20" x:Name="gridLayout" ></Grid>
+            </ScrollView>
+
+
          </StackLayout>
   <!--  <GridView x:Name="gd"
                   Tapped="gd_Tapped">

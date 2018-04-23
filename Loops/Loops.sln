@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{52372C3F-ADD8-4443-9784-31DAE1F4C7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoop", "WhileLoop\WhileLoop.csproj", "{A68D31DF-8794-47C2-9422-4D37407077BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forloop", "Forloop\Forloop.csproj", "{40CFA5C2-4A14-4824-9F20-77B1ED7BDBCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDimentionalArray", "OneDimentionalArray\OneDimentionalArray.csproj", "{E791E769-3987-44EE-9065-58E1BF81FB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalArray", "MultiDementionalArray\MultiDimensionalArray.csproj", "{D07B3E3D-7C0C-444D-A230-04218CD942C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArray", "JaggedArray\JaggedArray.csproj", "{BAA8E63B-78CF-4F2B-9B1B-FF64B9800D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparators", "Comparators\Comparators.csproj", "{7206F675-9E1A-437D-B57D-5944B0A10BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52372C3F-ADD8-4443-9784-31DAE1F4C7EE}.Debug|x86.ActiveCfg = Debug|x86
+		{52372C3F-ADD8-4443-9784-31DAE1F4C7EE}.Debug|x86.Build.0 = Debug|x86
+		{52372C3F-ADD8-4443-9784-31DAE1F4C7EE}.Release|x86.ActiveCfg = Release|x86
+		{52372C3F-ADD8-4443-9784-31DAE1F4C7EE}.Release|x86.Build.0 = Release|x86
+		{A68D31DF-8794-47C2-9422-4D37407077BF}.Debug|x86.ActiveCfg = Debug|x86
+		{A68D31DF-8794-47C2-9422-4D37407077BF}.Debug|x86.Build.0 = Debug|x86
+		{A68D31DF-8794-47C2-9422-4D37407077BF}.Release|x86.ActiveCfg = Release|x86
+		{A68D31DF-8794-47C2-9422-4D37407077BF}.Release|x86.Build.0 = Release|x86
+		{40CFA5C2-4A14-4824-9F20-77B1ED7BDBCE}.Debug|x86.ActiveCfg = Debug|x86
+		{40CFA5C2-4A14-4824-9F20-77B1ED7BDBCE}.Debug|x86.Build.0 = Debug|x86
+		{40CFA5C2-4A14-4824-9F20-77B1ED7BDBCE}.Release|x86.ActiveCfg = Release|x86
+		{40CFA5C2-4A14-4824-9F20-77B1ED7BDBCE}.Release|x86.Build.0 = Release|x86
+		{E791E769-3987-44EE-9065-58E1BF81FB41}.Debug|x86.ActiveCfg = Debug|x86
+		{E791E769-3987-44EE-9065-58E1BF81FB41}.Debug|x86.Build.0 = Debug|x86
+		{E791E769-3987-44EE-9065-58E1BF81FB41}.Release|x86.ActiveCfg = Release|x86
+		{E791E769-3987-44EE-9065-58E1BF81FB41}.Release|x86.Build.0 = Release|x86
+		{D07B3E3D-7C0C-444D-A230-04218CD942C4}.Debug|x86.ActiveCfg = Debug|x86
+		{D07B3E3D-7C0C-444D-A230-04218CD942C4}.Debug|x86.Build.0 = Debug|x86
+		{D07B3E3D-7C0C-444D-A230-04218CD942C4}.Release|x86.ActiveCfg = Release|x86
+		{D07B3E3D-7C0C-444D-A230-04218CD942C4}.Release|x86.Build.0 = Release|x86
+		{BAA8E63B-78CF-4F2B-9B1B-FF64B9800D4E}.Debug|x86.ActiveCfg = Debug|x86
+		{BAA8E63B-78CF-4F2B-9B1B-FF64B9800D4E}.Debug|x86.Build.0 = Debug|x86
+		{BAA8E63B-78CF-4F2B-9B1B-FF64B9800D4E}.Release|x86.ActiveCfg = Release|x86
+		{BAA8E63B-78CF-4F2B-9B1B-FF64B9800D4E}.Release|x86.Build.0 = Release|x86
+		{7206F675-9E1A-437D-B57D-5944B0A10BEF}.Debug|x86.ActiveCfg = Debug|x86
+		{7206F675-9E1A-437D-B57D-5944B0A10BEF}.Debug|x86.Build.0 = Debug|x86
+		{7206F675-9E1A-437D-B57D-5944B0A10BEF}.Release|x86.ActiveCfg = Release|x86
+		{7206F675-9E1A-437D-B57D-5944B0A10BEF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

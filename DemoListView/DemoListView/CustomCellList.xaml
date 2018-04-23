@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DemoListView.CustomCellList">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="myListView" 
+                      SeparatorColor="Blue"
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5">
+                                <Image Source="{Binding ImageUrl}"/>
+                                <StackLayout Orientation="Vertical" 
+                                    HorizontalOptions="StartAndExpand" >
+                                    <Label Text="{Binding Name}"/>
+                                    <Label Text="{Binding Status}"/>
+                                </StackLayout>
+                                <Button Text="Follow"/>
+                            </StackLayout>
+                        </ViewCell>                   
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

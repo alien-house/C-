@@ -1,0 +1,5 @@
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/FormattedOutput/bin/Debug/FormattedOutput.exe
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/FormattedOutput/bin/Debug/FormattedOutput.pdb
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/FormattedOutput/obj/x86/Debug/FormattedOutput.csproj.CoreCompileInputs.cache
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/FormattedOutput/obj/x86/Debug/FormattedOutput.exe
+/Users/shinji/Documents/git/alien_C-Sharp/IntroductionCsharp/FormattedOutput/obj/x86/Debug/FormattedOutput.pdb

@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function", "Function\Function.csproj", "{EDCB25DE-7CA2-4635-871F-93E62363EA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassByValue", "PassByValue\PassByValue.csproj", "{B56219C1-A6CE-495A-ADCF-556EC0DC528B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassByReference", "PassByReference\PassByReference.csproj", "{D67953C0-DBE7-4AAE-8581-27388D878075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters", "OptionalParameters\OptionalParameters.csproj", "{DCD445EC-A4AA-4750-805C-1E288818B00B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCB25DE-7CA2-4635-871F-93E62363EA5A}.Debug|x86.ActiveCfg = Debug|x86
+		{EDCB25DE-7CA2-4635-871F-93E62363EA5A}.Debug|x86.Build.0 = Debug|x86
+		{EDCB25DE-7CA2-4635-871F-93E62363EA5A}.Release|x86.ActiveCfg = Release|x86
+		{EDCB25DE-7CA2-4635-871F-93E62363EA5A}.Release|x86.Build.0 = Release|x86
+		{B56219C1-A6CE-495A-ADCF-556EC0DC528B}.Debug|x86.ActiveCfg = Debug|x86
+		{B56219C1-A6CE-495A-ADCF-556EC0DC528B}.Debug|x86.Build.0 = Debug|x86
+		{B56219C1-A6CE-495A-ADCF-556EC0DC528B}.Release|x86.ActiveCfg = Release|x86
+		{B56219C1-A6CE-495A-ADCF-556EC0DC528B}.Release|x86.Build.0 = Release|x86
+		{D67953C0-DBE7-4AAE-8581-27388D878075}.Debug|x86.ActiveCfg = Debug|x86
+		{D67953C0-DBE7-4AAE-8581-27388D878075}.Debug|x86.Build.0 = Debug|x86
+		{D67953C0-DBE7-4AAE-8581-27388D878075}.Release|x86.ActiveCfg = Release|x86
+		{D67953C0-DBE7-4AAE-8581-27388D878075}.Release|x86.Build.0 = Release|x86
+		{DCD445EC-A4AA-4750-805C-1E288818B00B}.Debug|x86.ActiveCfg = Debug|x86
+		{DCD445EC-A4AA-4750-805C-1E288818B00B}.Debug|x86.Build.0 = Debug|x86
+		{DCD445EC-A4AA-4750-805C-1E288818B00B}.Release|x86.ActiveCfg = Release|x86
+		{DCD445EC-A4AA-4750-805C-1E288818B00B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

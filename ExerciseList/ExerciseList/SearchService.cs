@@ -11,43 +11,39 @@ using Xamarin.Forms.Xaml;
 
 namespace ExerciseList
 {
-    public class SearchService : IEnumerable
+    public class SearchService
 	{
-		private IEnumerable<Search> mySearch;
-        private List<Search> mySearchList;
+		//private IEnumerable<Search> mySearch;
 
-        public SearchService()
-        {
-        }
-
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Search> getSearch(string searchText = null)
+		private List<Search> mySearchList = new List<Search>
 		{
-			mySearch = new List<Search>
+			new Search
 			{
-				new Search{Id=1, Location="West Hollywood, CA, United States", CheckIn=DateTime.Now, CheckOut=DateTime.Now},
-				new Search{Id=2, Location="West2 Hollywood, CA, United States", CheckIn=DateTime.Now, CheckOut=DateTime.Now}
-			};
-			if (String.IsNullOrWhiteSpace(searchText))
-				return mySearch;
-			return mySearch.Where(c => c.Location.StartsWith(searchText)).ToList();
+				Id = 1,
+				Location = "West Hollywood, CA, United States",
+				CheckIn = new DateTime(2016, 9, 1),
+				CheckOut = new DateTime(2016, 11, 1)
+			},
+			new Search
+			{
+				Id = 2,
+				Location = "Santa Monica, CA, United States",
+				CheckIn = new DateTime(2016, 9, 1),
+				CheckOut = new DateTime(2016, 11, 1)
+			}
+		};
+
+
+        public IEnumerable<Search> getSearch(string filter = null)
+		{
+			if (String.IsNullOrWhiteSpace(filter))
+				return mySearchList;
+			return mySearchList.Where(c => c.Location.StartsWith(filter,StringComparison.CurrentCultureIgnoreCase));
 		}
 
 		public void DeleteSearch(int searchId)
 		{
-            mySearchList = mySearch.ToList();
-
-            foreach (Search s in mySearch)
-            {
-                if (searchId == s.Id)
-                {
-                    mySearchList.Remove(s);
-                }
-            }
+            mySearchList.Remove(mySearchList.Single(s => s.Id == searchId));
 
 			//mySearch.Remove(search);
 		}

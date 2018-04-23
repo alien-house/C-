@@ -39,6 +39,15 @@
     <EmbeddedResource Include="GridLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="GridLayout2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbsoluteLayout2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StackLayout2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -56,6 +65,15 @@
     </Compile>
     <Compile Include="GridLayout.xaml.cs">
       <DependentUpon>GridLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridLayout2.xaml.cs">
+      <DependentUpon>GridLayout2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AbsoluteLayout2.xaml.cs">
+      <DependentUpon>AbsoluteLayout2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StackLayout2.xaml.cs">
+      <DependentUpon>StackLayout2.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

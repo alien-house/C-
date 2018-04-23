@@ -3,37 +3,25 @@
     Padding="0,0,0,0"
     BackgroundColor="#127ac7"
     xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LAB4.StackLayout">
-
-    <AbsoluteLayout>
-    <StackLayout
-            AbsoluteLayout.LayoutBounds="0,0,1,1"
-            AbsoluteLayout.LayoutFlags="SizeProportional"
-        VerticalOptions="Center">
-
+    <StackLayout VerticalOptions="Center" Spacing="20">
         <Label 
             Text="Welcome to Xamarin"
-            FontSize="22"
             TextColor="White"
-            HorizontalTextAlignment="Center"
-        />
+            FontSize="30" 
+            FontAttributes="Bold"  
+            HorizontalOptions="Center" />
         <Label 
-            Text="Cross-platform apps made easy"
-            FontSize="16"
+            Text="Cross-platform apps made easy" 
             TextColor="White"
-            HorizontalTextAlignment="Center"
-        />
-        <Button
-            Text="Login"
+            FontSize="18" 
+            HorizontalOptions="Center" />
+        <Button 
+            Text="Login" 
             TextColor="White"
-            BackgroundColor="#1dabf0"
-        />
-        <Button
-            Text="Register"
+            BackgroundColor="#1dabf0" />
+        <Button 
+            Text="Register" 
             TextColor="White"
-            BackgroundColor="#1dabf0"
-        />
-
-        
-	</StackLayout>
-    </AbsoluteLayout>
+            BackgroundColor="#1dabf0" />
+    </StackLayout>
 </ContentPage>

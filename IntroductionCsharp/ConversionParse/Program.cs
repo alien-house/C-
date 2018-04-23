@@ -6,7 +6,16 @@ namespace ConversionParse
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("a = ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("float b = ");
+			float f = float.Parse(Console.ReadLine());
+			Console.WriteLine("double d = ");
+			double d = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("{0},{1},{2}", a, f, d);
+
+
         }
     }
 }

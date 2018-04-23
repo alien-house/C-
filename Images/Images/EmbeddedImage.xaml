@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Images.EmbeddedImage"
+    xmlns.local="clr-namespace:Images">
+	<ContentPage.Content>
+        <StackLayout>
+<!-- Embedded Images can be set using custom markup 
+            extension only from code behind not from xaml -->
+            <Image Source="{
+                EmbeddedImage ResourceID = Images.Images.batdroid.png
+            }" x:Name="myImage" Aspect="AspectFill" />
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

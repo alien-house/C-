@@ -53,7 +53,6 @@ namespace FinalProject_Image
             Navigation.PushAsync(new PicPage(img.Source));
         }
 
-
 		async Task<ImageList> GetImageListAsync()
 		{
 			var requestUri = "http://alien-house.com/demo/stock.json";
